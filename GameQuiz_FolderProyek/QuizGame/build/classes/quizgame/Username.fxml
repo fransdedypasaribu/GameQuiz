@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #E0FFFF;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizgame.FXMLDocumentController">
+   <children>
+      <Button fx:id="playButton" layoutX="335.0" layoutY="270.0" mnemonicParsing="false" onAction="#play" prefHeight="68.0" prefWidth="354.0" style="-fx-background-color: #6ED9A0;" text="PLAY" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Kristen ITC" size="26.0" />
+         </font>
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Button>
+      <Button fx:id="creditButton" layoutX="333.0" layoutY="362.0" mnemonicParsing="false" onAction="#moveCredit" prefHeight="68.0" prefWidth="354.0" style="-fx-background-color: #6ED9A0;" text="CREDITS" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Kristen ITC" size="26.0" />
+         </font>
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Button>
+      <Button fx:id="quitButton" layoutX="333.0" layoutY="453.0" mnemonicParsing="false" onAction="#quit" prefHeight="68.0" prefWidth="354.0" style="-fx-background-color: #6ED9A0;" text="QUIT" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Kristen ITC" size="26.0" />
+         </font>
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Button>
+      <Text fill="#179e41" layoutX="273.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUIZ GAME" textAlignment="CENTER" wrappingWidth="477.2919921875">
+         <font>
+            <Font name="Kristen ITC" size="56.0" />
+         </font>
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Text>
+      <Circle fill="DODGERBLUE" layoutX="741.0" layoutY="178.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #539778;">
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Circle>
+      <Circle fill="DODGERBLUE" layoutX="282.0" layoutY="178.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #5FB68C;">
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Circle>
+      <Circle fill="DODGERBLUE" layoutX="282.0" layoutY="144.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #6ED9A0;">
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Circle>
+      <Circle fill="DODGERBLUE" layoutX="741.0" layoutY="144.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #6DD89F;">
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Circle>
+      <Text layoutX="452.0" layoutY="597.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quiz Game v1.0">
+         <font>
+            <Font name="Copperplate Gothic Light" size="15.0" />
+         </font>
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Text>
+      <Text layoutX="438.0" layoutY="626.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Copyright © 2018">
+         <font>
+            <Font name="Copperplate Gothic Light" size="15.0" />
+         </font>
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Text>
+      <AnchorPane layoutX="278.0" layoutY="258.0" prefHeight="253.0" prefWidth="469.0" style="-fx-background-color: #F0FFFF;">
+         <children>
+            <Label layoutX="24.0" layoutY="42.0" text="Enter Your Name">
+               <font>
+                  <Font name="Kristen ITC" size="23.0" />
+               </font>
+            </Label>
+            <TextField fx:id="userName" layoutX="24.0" layoutY="88.0" prefHeight="48.0" prefWidth="405.0" promptText="username (e.g. Harry)">
+               <font>
+                  <Font name="Kristen ITC" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#908585" height="14.78" radius="6.89" spread="0.15" width="14.78" />
+               </effect>
+            </TextField>
+            <Button fx:id="playNowButton" layoutX="311.0" layoutY="148.0" mnemonicParsing="false" onAction="#playNow" style="-fx-background-color: #6ED9A0;" text="PLAY NOW!" textFill="#f8f8f8">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="15.0" />
+               </font>
+               <effect>
+                  <InnerShadow color="#1da334" height="15.0" radius="7.0" width="15.0" />
+               </effect>
+            </Button>
+            <Button fx:id="cancelPlayButton" layoutX="207.0" layoutY="148.0" mnemonicParsing="false" onAction="#cancelPlay" style="-fx-background-color: #DC143C;" text="CANCEL" textFill="WHITE">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="15.0" />
+               </font>
+               <effect>
+                  <InnerShadow color="#2c0808" height="15.0" radius="7.0" width="15.0" />
+               </effect>
+            </Button>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>

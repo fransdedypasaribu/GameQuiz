@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #E0FFFF;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizgame.FXMLDocumentController">
+   <children>
+      <Button fx:id="backButton" layoutX="35.0" layoutY="29.0" mnemonicParsing="false" onAction="#back" prefHeight="38.0" prefWidth="114.0" style="-fx-background-color: #6ED9A0;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Kristen ITC" size="21.0" />
+         </font></Button>
+      <Label layoutX="309.0" layoutY="253.0" prefHeight="73.0" prefWidth="425.0" text="Yohana Imelda Lubis                              11S16005">
+         <font>
+            <Font name="Kristen ITC" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="309.0" layoutY="326.0" prefHeight="73.0" prefWidth="425.0" text="Adrian Setiyadi Sitorus                          11S16030">
+         <font>
+            <Font name="Kristen ITC" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="309.0" layoutY="545.0" prefHeight="73.0" prefWidth="425.0" text="Grace Evanggelisa Tambunan                11S16067">
+         <font>
+            <Font name="Kristen ITC" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="309.0" layoutY="399.0" prefHeight="73.0" prefWidth="425.0" text="Frans Dedy Pasaribu                              11S16040">
+         <font>
+            <Font name="Kristen ITC" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="309.0" layoutY="472.0" prefHeight="73.0" prefWidth="425.0" text="Andre Yehuda Sitorus                           11S16053">
+         <font>
+            <Font name="Kristen ITC" size="18.0" />
+         </font>
+      </Label>
+      <Text fill="#179e41" layoutX="273.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUIZ GAME" textAlignment="CENTER" wrappingWidth="477.2919921875">
+         <font>
+            <Font name="Kristen ITC" size="56.0" />
+         </font>
+      </Text>
+      <Circle fill="DODGERBLUE" layoutX="741.0" layoutY="178.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #539778;" />
+      <Circle fill="DODGERBLUE" layoutX="282.0" layoutY="178.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #5FB68C;" />
+      <Circle fill="DODGERBLUE" layoutX="282.0" layoutY="144.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #6ED9A0;" />
+      <Circle fill="DODGERBLUE" layoutX="741.0" layoutY="144.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #6DD89F;" />
+   </children>
+</AnchorPane>
